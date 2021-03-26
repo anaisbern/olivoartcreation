@@ -1,0 +1,258 @@
+body{
+	background-color: white;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	color: black;
+	margin: 0;
+}
+
+h1{
+	font-size: 60px;
+	margin-top: 110px;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 40px;
+	margin: 0;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color:#286BC8;
+}
+
+img {
+	border-radius: 4px;
+}
+
+iframe {
+	border-radius: 4px;
+	width: 50%;
+}
+
+/*-----ICONES----*/
+
+i {
+	font-size: 40px;
+ 	color:#286BC8;
+} 
+i:hover {
+	color: orange;
+}
+
+/*------MENU-------*/
+.barre{
+	background-color: rgba(121, 125, 127,.4);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 8px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white
+}
+
+.menu a:hover{
+	color:orange;
+}
+
+/*----PARTIES-----*/
+
+.part {
+	border: 0px solid black;
+	margin: 0px auto;
+}
+
+
+/*-----HOME + BANNER------*/
+
+.banner {
+	background-image: url(images/bois-la.jpg);/*Photo by Moriah Wolfe on Unsplash*/
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	color: white;
+	
+}
+
+.btn-discover{
+	background-color: #DCA15C;
+	color:white;
+	text-align: center;
+    display: block;
+    margin: 50px auto;
+    border-radius: 7px;
+    width: 15%;
+    padding: 8px 14px;
+   
+
+}
+
+.btn-discover:hover{
+	background-color: white;
+	border:2px solid #DCA15C;
+	color: #DCA15C;
+}
+
+/*-----CONCEPTION----*/
+
+.conception {
+	width: 90%;
+	margin: 70px auto;
+}
+
+.grid-concep{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 25px;
+	padding: 10px 50px;
+	margin-top: 15pX;
+}
+
+
+.atelier{
+	background-color: #BB9D81;
+	padding: 50px;
+}
+
+table {
+	text-align: center;
+	width: 60%;
+	margin: 50px auto;
+}
+
+.atelier img {
+	max-width: 100%
+}
+
+
+/*----GALERIE----*/
+
+.galerie{
+	background-color: white;
+	padding: 50px;
+}
+
+/*-----DIAPORAMA-----*/
+
+*{box-sizing:border-box}
+
+.diapo {
+	max-width: 65%;
+}
+
+.target{
+	display: none;
+}
+
+.cadre_diapo{
+	max-width: 700px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+.interieur_diapo{	
+	display: flex;
+	width: 400%;
+	transition: transform .5s ease-in-out
+}
+
+.description{
+	position: relative;
+}
+
+.description span{
+	position: absolute;
+	left: 0px;
+	top: 5%;
+	padding: 3px 10px;
+	/*justify-content: center;*/
+	color: white;
+	background: hsla(0,0%,0%,.35)
+}
+
+#votre_id1:target ~ .cadre_diapo .interieur_diapo{
+	transform:translatex(0%)
+}
+
+#votre_id2:target ~ .cadre_diapo .interieur_diapo{
+	transform:translatex(-33%)
+}
+
+#votre_id3:target ~ .cadre_diapo .interieur_diapo{
+	transform:translatex(-66%)
+}
+
+.navigation_diapo{	
+	display: flex; /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+.navigation_diapo li {	
+	padding: 0px;	
+}
+
+
+
+
+/*----A PROPOS-----*/
+
+#apropos{
+	background-color: #DCA15C; /*#E59866;*/
+	padding: 50px;
+}
+
+.apropos{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 15px;
+}
+
+.art {
+	width: 50%;
+}
+
+/*-----FOOTER----*/
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+.list{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.footer {
+	background-image: url(images/bois-la.jpg);/*Photo by Moriah Wolfe on Unsplash*/
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 40px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+.footer i {
+	margin-bottom: 20px;
+
+}
+
+.grid-contact{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	width: 60%;
+	margin: 10px auto;
+}
+
+
+
