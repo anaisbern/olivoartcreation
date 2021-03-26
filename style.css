@@ -70,7 +70,7 @@ i:hover {
 /*-----HOME + BANNER------*/
 
 .banner {
-	background-image: url(images/bois-la.jpg);/*Photo by Moriah Wolfe on Unsplash*/
+	background-image: url(images/bois.jpg);/*Photo by Moriah Wolfe on Unsplash*/
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -232,7 +232,7 @@ li {
 }
 
 .footer {
-	background-image: url(images/bois-la.jpg);/*Photo by Moriah Wolfe on Unsplash*/
+	background-image: url(images/bois.jpg);/*Photo by Moriah Wolfe on Unsplash*/
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
